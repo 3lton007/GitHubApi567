@@ -33,6 +33,5 @@ def main():
     yolo = input("Enter your user ID:")
 
     for item in repo(yolo):
-        print(item)
+        return item
 
-main()
